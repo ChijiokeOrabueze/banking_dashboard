@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 import { CurrentPageProvider } from './context/CurrentPageContext';
+import Pages from './pages';
 import SideBar from './templates/side-bar';
 
 const Container = styled.div`
@@ -19,11 +20,6 @@ const PageWrapper = styled.div`
   display: flex;
 
 `
-const Pages = styled.div`
-
-
-
-`
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,9 +29,7 @@ function App() {
       <CurrentPageProvider>
         <PageWrapper>
           <SideBar />
-          <Pages>
-
-          </Pages>
+          <Pages />
         </PageWrapper>
       </CurrentPageProvider>
     </Container>
