@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styled from 'styled-components';
+import { CurrentPageProvider } from './context/CurrentPageContext';
 import SideBar from './templates/side-bar';
 
 const Container = styled.div`
@@ -29,12 +30,14 @@ function App() {
 
   return (
     <Container className="App">
-      <PageWrapper>
-        <SideBar />
-        <Pages>
+      <CurrentPageProvider>
+        <PageWrapper>
+          <SideBar />
+          <Pages>
 
-        </Pages>
-      </PageWrapper>
+          </Pages>
+        </PageWrapper>
+      </CurrentPageProvider>
     </Container>
   )
 }
