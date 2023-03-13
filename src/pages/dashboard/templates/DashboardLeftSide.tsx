@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import SendMoney from "../components/SendMoney";
 
 const Container = styled.div`
+    width: 205.48px;
 
 
 `
