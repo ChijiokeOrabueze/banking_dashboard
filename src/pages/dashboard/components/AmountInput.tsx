@@ -30,6 +30,7 @@ const Body = styled(FlexApart)`
 const InputContainer = styled.div`
     font-family: 'Gilroy-SemiBold';
     display: flex;
+    align-items: center;
     gap: 2px;
     width: 70%;
 

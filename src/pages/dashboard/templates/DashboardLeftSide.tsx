@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Card from "../components/Card";
+import QuickTransfer from "../components/QuickTransfer";
 import SendMoney from "../components/SendMoney";
 
 const Container = styled.div`
@@ -15,7 +16,7 @@ const DashboardLeftSide = () => {
         <Container>
             <Card />
             <SendMoney />
-            
+            <QuickTransfer />
         </Container>
     )
 
