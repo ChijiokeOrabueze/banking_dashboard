@@ -39,8 +39,8 @@ const Statistics = () => {
 
             <Body>
                 {
-                    statsData.map(data=>(
-                        <Stats {...data}/>
+                    statsData.map((data,i)=>(
+                        <Stats {...data} key={i}/>
                     ))
                 }
             </Body>
