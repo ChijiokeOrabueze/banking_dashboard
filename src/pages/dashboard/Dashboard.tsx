@@ -1,5 +1,6 @@
 import { Container } from "./dashboard.styles";
 import DashboardLeftSide from "./templates/DashboardLeftSide";
+import DashboardRightSide from "./templates/DashboardRightSide";
 
 
 const Dashboard = () => {
@@ -7,7 +8,7 @@ const Dashboard = () => {
     return (
         <Container>
             <DashboardLeftSide />
-
+            <DashboardRightSide />
         </Container>
     )
 
