@@ -14,7 +14,9 @@ const DashboardLeftSide = () => {
 
     return (
         <Container>
-            <Card />
+            <Card name="Musa Adamu"
+            cardNumber="1200 01452 54215"
+            cardExpiry="08/23"/>
             <SendMoney />
             <QuickTransfer />
         </Container>

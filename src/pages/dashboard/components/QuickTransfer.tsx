@@ -21,6 +21,10 @@ const Container = styled.div`
         color: #141736;
     }
 
+    .amount-input {
+        border: 1.13394px solid #819CFD;
+    }
+
 
 `
 
@@ -70,7 +74,7 @@ const QuickTransfer = () => {
             <AmountInput 
                     padding="10px"
                     borderRadius="7.93757px"
-                    image="countries"
+                    image="icon3"
                     title="Enter amount"
                     />
             <CallToActionBox>

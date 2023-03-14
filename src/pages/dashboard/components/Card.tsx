@@ -50,7 +50,13 @@ const OverLayBottom = styled.div`
 
 `
 
-const Card = () => {
+interface CardProps {
+    name: string;
+    cardNumber: string;
+    cardExpiry: string;
+}
+
+const Card = ({name, cardExpiry, cardNumber}:CardProps) => {
 
     return (
 
@@ -65,16 +71,16 @@ const Card = () => {
                             lineHeight= "10">Name</CardText>
                         <CardText 
                             fontSize="13.1625" 
-                            lineHeight= "15">Carla Rosser</CardText>
+                            lineHeight= "15">{name}</CardText>
                     </div>
                     <OverLayBottom>
                         <div>
                             <CardText 
                                 fontSize="10.2375" 
-                                lineHeight= "12">1200 01452 54215</CardText>
+                                lineHeight= "12">{cardNumber}</CardText>
                             <CardText 
                                 fontSize="8.04375" 
-                                lineHeight= "9">08/23</CardText>
+                                lineHeight= "9">{cardExpiry}</CardText>
                         </div>
                         <img src="/assets/dashboard/visa.svg" alt="" />
 
