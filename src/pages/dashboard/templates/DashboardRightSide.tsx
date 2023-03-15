@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import RecentContacts from "./RecentContacts";
 import RecentTransactions from "./RecentTransactions";
 import Statistics from "./Statistics";
 
@@ -9,14 +10,22 @@ const Container = styled.div`
 
 `
 
+const TopComponents = styled.div`
+    display: flex;
+    gap: 20px;
+
+`
+
 
 const DashboardRightSide = () => {
 
     return (
         <Container>
+            <TopComponents>
+                <RecentContacts />
+            </TopComponents>
             <RecentTransactions />
             <Statistics />
-            
         </Container>
     )
 

@@ -6,10 +6,6 @@ import { statsData, transactionData } from "../dashboard.data";
 
 const Container = styled.div`
     width: 590.12px;
-    // height: 174.04px;
-    // background-color: #FFFFFF;
-    // box-shadow: 0px 14.625px 80.4375px -21.9375px rgba(43, 37, 37, 0.12);
-    // border-radius: 10.2375px;
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
