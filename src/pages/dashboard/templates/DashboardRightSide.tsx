@@ -14,6 +14,22 @@ const Container = styled.div`
 const TopComponents = styled.div`
     display: flex;
     gap: 20px;
+    margin-bottom: 44px;
+
+`
+
+const Header = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 21px;
+    width: 100%;
+    margin-bottom: 37px;
+
+    .profile {
+        width: 26.49px;
+        height: 24.13px;
+    }
 
 `
 
@@ -22,6 +38,11 @@ const DashboardRightSide = () => {
 
     return (
         <Container>
+            <Header>
+                <img src="/assets/dashboard/gray-search.svg" alt="" />
+                <img src="/assets/dashboard/alert.svg" alt="" />
+                <img src="/assets/dashboard/icon2.svg" alt="" className="profile" />
+            </Header>
             <TopComponents>
                 <MoneyFlow />
                 <RecentContacts />
