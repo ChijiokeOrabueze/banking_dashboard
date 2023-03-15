@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import MoneyFlow from "./MoneyFlow";
 import RecentContacts from "./RecentContacts";
 import RecentTransactions from "./RecentTransactions";
 import Statistics from "./Statistics";
@@ -22,6 +23,7 @@ const DashboardRightSide = () => {
     return (
         <Container>
             <TopComponents>
+                <MoneyFlow />
                 <RecentContacts />
             </TopComponents>
             <RecentTransactions />
