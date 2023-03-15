@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FlexApart, FlexRow } from "../../../styles";
 import GroupParty from "../components/GroupParty";
 import Recipients from "../components/Recipients";
 import { recipientsData } from "../dashboard.data";
@@ -49,16 +50,32 @@ const GroupPartyHeading = styled.p`
 
 `
 
+const Header = styled(FlexApart)`
+    margin-bottom: 10px;
+    h2 {
+        font-family: 'Gilroy-SemiBold';
+        font-size: 13.1625px;
+        line-height: 15px;
+        color: #131635;
+    }
+
+`
+
 
 
 const RecentContacts = () => {
 
     return (
         <Container>
+            <Header>
+                <h2>Recent Contacts</h2>
+                <FlexRow gap={20}>
+                   <img src="/assets/dashboard/pencil.svg" alt="" /> 
+                   <img src="/assets/dashboard/search.svg" alt="" /> 
+                </FlexRow>
+            </Header>
             <Recipients recipients={recipientsData}/>
             <GroupParty />
-
-
         </Container>
     )
 }
