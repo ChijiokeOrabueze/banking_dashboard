@@ -68,7 +68,6 @@ const GroupParty = () => {
 
     return (
         <Container>
-
             <GroupPartyDesign />
             <GroupPartyBody>
                 <GroupPartyHeading>Group <span>Party</span></GroupPartyHeading>

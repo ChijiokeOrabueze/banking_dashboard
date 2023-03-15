@@ -58,3 +58,37 @@ export const transactionData = [
         amount: "210.00"
     },
 ]
+
+
+export const recipientsData = [
+    {
+        key:0,
+        image: getImage("anatalia"),
+        isInitial: false,
+    },
+    {
+        key:1,
+        image: getImage("anatalia"),
+        isInitial: false,
+    },
+    {
+        key:2,
+        image: "HC",
+        isInitial: true,
+    },
+    {
+        key:3,
+        image: getImage("anatalia"),
+        isInitial: false,
+    },
+    {
+        key:4,
+        image: getImage("anatalia"),
+        isInitial: false,
+    },
+    {
+        key:5,
+        image: "PK",
+        isInitial: true,
+    },
+]

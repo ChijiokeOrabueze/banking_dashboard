@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import GroupParty from "../components/GroupParty";
+import Recipients from "../components/Recipients";
+import { recipientsData } from "../dashboard.data";
 
 
 const Container = styled.div`
@@ -53,7 +55,7 @@ const RecentContacts = () => {
 
     return (
         <Container>
-
+            <Recipients recipients={recipientsData}/>
             <GroupParty />
 
 
