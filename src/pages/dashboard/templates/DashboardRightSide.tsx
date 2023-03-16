@@ -24,7 +24,7 @@ const Header = styled.div`
     justify-content: end;
     gap: 21px;
     width: 100%;
-    margin-bottom: 37px;
+    margin-bottom: 15px;
 
     .profile {
         width: 26.49px;

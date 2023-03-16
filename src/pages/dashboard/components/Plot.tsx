@@ -70,7 +70,7 @@ const Plot = () => {
             min: 0,
             range: 10000,
             tickAmount: 5,
-            offsetY: 10,
+            offsetY: 100,
             labels: {
                 formatter: function (value:number) {
                     if (value >= 1000) {
@@ -85,7 +85,9 @@ const Plot = () => {
                     color: "#A5B4CB",
                 }
                 
-              },
+            },
+            
+            
           },
           dataLabels: {
             enabled: false
@@ -105,7 +107,11 @@ const Plot = () => {
                             <span class="tool-tip-value">$ ${series[seriesIndex][dataPointIndex]}</span> 
                     </div>`
             }
-          }
+          },
+          grid: {
+            strokeDashArray: 5,
+            position: "back" as "back"
+        }
           
         },
         series: [
@@ -123,7 +129,8 @@ const Plot = () => {
               options={values.options}
               series={values.series}
               type="area"
-              width="385"
+              width="380"
+              height="200"
             />
 
         </Container>
