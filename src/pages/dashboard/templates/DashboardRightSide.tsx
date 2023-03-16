@@ -25,6 +25,7 @@ const Header = styled.div`
     gap: 21px;
     width: 100%;
     margin-bottom: 15px;
+    padding-right: 12px;
 
     .profile {
         width: 26.49px;

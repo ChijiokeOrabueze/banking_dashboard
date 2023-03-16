@@ -70,7 +70,7 @@ const Plot = () => {
             min: 0,
             range: 10000,
             tickAmount: 5,
-            offsetY: 100,
+            // offsetY: 100,
             labels: {
                 formatter: function (value:number) {
                     if (value >= 1000) {
@@ -83,7 +83,8 @@ const Plot = () => {
                     fontSize: "10px",
                     lineHeight: "9px",
                     color: "#A5B4CB",
-                }
+                },
+                // offsetY: -10,
                 
             },
             
