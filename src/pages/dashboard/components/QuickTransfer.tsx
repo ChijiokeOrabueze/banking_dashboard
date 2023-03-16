@@ -80,7 +80,7 @@ const QuickTransfer = () => {
             <CallToActionBox>
                 {
                     ["Send", "Recieve", "Invoicing", "More"].map((s)=>(
-                        <CtaButton title={s} btnImage={s.toLowerCase()}/>
+                        <CtaButton key={s} title={s} btnImage={s.toLowerCase()}/>
                     ))
                 }
 
