@@ -2,6 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import Select from "../../../components/Select";
 import { FlexApart, FlexRow } from "../../../styles";
+import Plot from "../components/Plot";
 
 
 const Container = styled.div`
@@ -75,10 +76,10 @@ const MoneyFlow = () => {
                     <Select options={["Weeek", "Month"]} value={value} name="select"
                      handleChange={(e)=>{setValue(e.target.value)}}/>
                 </FlexApart>
-                
 
             </Header>
 
+            <Plot />
 
         </Container>
     )
