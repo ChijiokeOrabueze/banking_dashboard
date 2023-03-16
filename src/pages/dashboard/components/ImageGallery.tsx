@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { FlexApart } from "../../../styles";
-import Stats from "./Stats";
 
 
 const Container = styled.div`
@@ -30,26 +29,6 @@ const ImageContainer = styled.div`
 
 `
 
-const ImageGalleryBody = styled.div`
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 14px 14px 0 14px;
-    background-color: #FFFFFF;
-    border-radius: 8.04375px;
-
-`
-
-const ImageGalleryDesign = styled.div`
-    width: 178.32px;
-    height: 109.84px;
-    background: #F3F3F3;
-    box-shadow: 0px 16.8187px 32.9062px rgba(0, 0, 0, 0.1);
-    border-radius: 13.8938px;
-
-`
 
 const ImageGalleryHeading = styled.p`
 
