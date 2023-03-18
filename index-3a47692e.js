@@ -1076,7 +1076,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         color: #141736;
     }
 
-`,Dv=()=>{const[i,r]=Se.useState("");return de(Nv,{children:[de(Ov,{children:[de(Jt,{children:[$("h2",{children:"Money Flow"}),de(ni,{gap:19,children:[$("img",{src:"/banking_dashboard/assets/dashboard/wiggly-gray.svg",alt:""}),$("img",{src:"/banking_dashboard/assets/dashboard/sort.svg",alt:""})]})]}),de(Jt,{children:[de(ni,{gap:19,children:[de(ni,{gap:8,children:[$("img",{src:"/banking_dashboard/assets/dashboard/wiggly-btn.svg",alt:""}),$("h2",{className:"savings",children:"Savings"})]}),de(ni,{gap:8,children:[$("img",{src:"/banking_dashboard/assets/dashboard/wiggly-blue.svg",alt:""}),$("h2",{className:"analysis",children:"+23,9%"})]})]}),$(xv,{options:["Weeek","Month"],value:i,name:"select",handleChange:o=>{r(o.target.value)}})]})]}),$(Rv,{})]})},Xv=se.div`
+`,Dv=()=>{const[i,r]=Se.useState("");return de(Nv,{children:[de(Ov,{children:[de(Jt,{children:[$("h2",{children:"Money Flow"}),de(ni,{gap:19,children:[$("img",{src:"/banking_dashboard/assets/dashboard/wiggly-gray.svg",alt:""}),$("img",{src:"/banking_dashboard/assets/dashboard/sort.svg",alt:""})]})]}),de(Jt,{children:[de(ni,{gap:19,children:[de(ni,{gap:8,children:[$("img",{src:"/banking_dashboard/assets/dashboard/wiggly-btn.svg",alt:""}),$("h2",{className:"savings",children:"Savings"})]}),de(ni,{gap:8,children:[$("img",{src:"/banking_dashboard/assets/dashboard/wiggly-blue.svg",alt:""}),$("h2",{className:"analysis",children:"+23,9%"})]})]}),$(xv,{options:["week","Month"],value:i,name:"select",handleChange:o=>{r(o.target.value)}})]})]}),$(Rv,{})]})},Xv=se.div`
     // width: 206.21px;
     // height: 130.16px;
     // background-color: #FFFFFF;
