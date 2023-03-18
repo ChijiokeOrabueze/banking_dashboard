@@ -5,8 +5,11 @@ Each page (defined within the src/pages folder) is built atop global components,
 
 The application uses: the react context api () for managing navigation to different pages from the single single side bar, styled-components () for scalable and manageable styling and react apex charts library for making customized plots rendered on the browser.
 
+## Deployment
+This project was hosted using github pages and can be found at "https://chijiokeorabueze.github.io/banking_dashboard/".
 
-## Running the application
+
+## Running the application (locally)
 There are basically two ways to get this application running on your local machine.
 - The first is using a container (docker). This is the recommended method since it allows you to freely run the application with less dependencies. To use this method simple run the command "docker-compose up" at the root directory of the application. 
 PS: This method requires a total of 2 dependencies, docker and docker-compose, which must be installed globally on your local machine before starting the application.
