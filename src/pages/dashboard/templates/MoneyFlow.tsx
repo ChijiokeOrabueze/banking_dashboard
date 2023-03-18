@@ -73,7 +73,7 @@ const MoneyFlow = () => {
                             <h2 className="analysis">+23,9%</h2>
                         </FlexRow>
                     </FlexRow>
-                    <Select options={["Weeek", "Month"]} value={value} name="select"
+                    <Select options={["Week", "Month"]} value={value} name="select"
                      handleChange={(e)=>{setValue(e.target.value)}}/>
                 </FlexApart>
 
