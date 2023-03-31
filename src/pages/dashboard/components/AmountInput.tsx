@@ -71,10 +71,10 @@ const AmountInput = ({padding, bodyGap, borderRadius, icon, title, bodyFontSize,
                 <InputContainer style={{
                     lineHeight: bodyLineHeight || "17px",
                     fontSize: bodyFontSize || "14.7412px",
-                    gap: bodyGap || "2px"
+                    gap: bodyGap || "2px",
                 }}>
                     <p style={{color: bodyPColor || "#3D424B"}}>$</p>
-                    <Input placeholder="20.32" style={{color: bodyInputColor || "#3D424B", fontSize: bodyFontSize || "14.7412px", }} value={amount} onChange={(e)=>{setAmount(e.target.value)}}/>
+                    <Input placeholder="20.32" style={{ overflowX: "hidden", color: bodyInputColor || "#3D424B", fontSize: bodyFontSize || "14.7412px", }} value={amount} onChange={(e)=>{setAmount(e.target.value)}}/>
                 </InputContainer>
                 <img src={`/assets/dashboard/${image}.svg`} alt="" />
             </Body>
