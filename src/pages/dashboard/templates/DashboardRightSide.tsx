@@ -18,32 +18,18 @@ const TopComponents = styled.div`
 
 `
 
-const Header = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 21px;
-    width: 100%;
-    margin-bottom: 15px;
-    padding-right: 12px;
 
-    .profile {
-        width: 26.49px;
-        height: 24.13px;
-    }
-
-`
 
 
 const DashboardRightSide = () => {
 
     return (
         <Container>
-            <Header>
+            {/* <Header>
                 <img src="/assets/dashboard/gray-search.svg" alt="" />
                 <img src="/assets/dashboard/alert.svg" alt="" />
                 <img src="/assets/dashboard/icon2.svg" alt="" className="profile" />
-            </Header>
+            </Header> */}
             <TopComponents>
                 <MoneyFlow />
                 <RecentContacts />

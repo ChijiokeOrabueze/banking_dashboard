@@ -6,13 +6,6 @@ const Container = styled.div`
     gap: 23px;
 
 `
-const Header = styled.h2`
-    font-family: 'Gilroy-SemiBold';
-    font-size: 17.55px;
-    line-height: 21px;
-    color: #000000;
-
-`
 
 const CardContainer = styled.div`
     position: relative;
@@ -61,7 +54,7 @@ const Card = ({name, cardExpiry, cardNumber}:CardProps) => {
     return (
 
         <Container>
-            <Header>My Card</Header>
+            {/* <Header>My Card</Header> */}
             <CardContainer>
                 <img src="/assets/dashboard/card.png" alt="" />
                 <CardOverlay>
