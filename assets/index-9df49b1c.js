@@ -113,7 +113,7 @@ Error generating stack: `+m.message+`
     justify-content: space-between;
     
 
-`,Gm=({name:i,cardExpiry:r,cardNumber:o})=>$(Bm,{children:de(Wm,{children:[$("img",{src:"/assets/dashboard/card.png",alt:""}),de(_m,{children:[de("div",{children:[$(ra,{fontSize:"8.775",lineHeight:"10",children:"Name"}),$(ra,{fontSize:"13.1625",lineHeight:"15",children:i})]}),de(Vm,{children:[de("div",{children:[$(ra,{fontSize:"10.2375",lineHeight:"12",children:o}),$(ra,{fontSize:"8.04375",lineHeight:"9",children:r})]}),$("img",{src:"/assets/dashboard/visa.svg",alt:""})]})]})]})}),ni=se.div`
+`,Gm=({name:i,cardExpiry:r,cardNumber:o})=>$(Bm,{children:de(Wm,{children:[$("img",{src:"/banking_dashboard/assets/dashboard/card.png",alt:""}),de(_m,{children:[de("div",{children:[$(ra,{fontSize:"8.775",lineHeight:"10",children:"Name"}),$(ra,{fontSize:"13.1625",lineHeight:"15",children:i})]}),de(Vm,{children:[de("div",{children:[$(ra,{fontSize:"10.2375",lineHeight:"12",children:o}),$(ra,{fontSize:"8.04375",lineHeight:"9",children:r})]}),$("img",{src:"/banking_dashboard/assets/dashboard/visa.svg",alt:""})]})]})]})}),ni=se.div`
     display: flex;
     align-items: center;
     gap: ${({gap:i})=>i||10}px;
@@ -157,7 +157,7 @@ Error generating stack: `+m.message+`
     background-color: transparent;
 
 
-`,bf=({padding:i,bodyGap:r,borderRadius:o,icon:h,title:p,bodyFontSize:m,bodyLineHeight:S,bodyPColor:A,bodyInputColor:R,image:N})=>{const[V,W]=Se.useState("");return de(jm,{className:"amount-input",style:{padding:i,borderRadius:o},children:[de(Um,{children:[$("img",{style:{display:h?"initial":"none"},src:`/assets/dashboard/${h}.svg`,alt:""}),$("p",{children:p})]}),de($m,{children:[de(Zm,{style:{lineHeight:S||"17px",fontSize:m||"14.7412px",gap:r||"2px"},children:[$("p",{style:{color:A||"#3D424B"},children:"$"}),$(qm,{placeholder:"20.32",style:{overflowX:"hidden",color:R||"#3D424B",fontSize:m||"14.7412px"},value:V,onChange:_=>{W(_.target.value)}})]}),$("img",{src:`/assets/dashboard/${N}.svg`,alt:""})]})]})},Qm=se.div`
+`,bf=({padding:i,bodyGap:r,borderRadius:o,icon:h,title:p,bodyFontSize:m,bodyLineHeight:S,bodyPColor:A,bodyInputColor:R,image:N})=>{const[V,W]=Se.useState("");return de(jm,{className:"amount-input",style:{padding:i,borderRadius:o},children:[de(Um,{children:[$("img",{style:{display:h?"initial":"none"},src:`/banking_dashboard/assets/dashboard/${h}.svg`,alt:""}),$("p",{children:p})]}),de($m,{children:[de(Zm,{style:{lineHeight:S||"17px",fontSize:m||"14.7412px",gap:r||"2px"},children:[$("p",{style:{color:A||"#3D424B"},children:"$"}),$(qm,{placeholder:"20.32",style:{overflowX:"hidden",color:R||"#3D424B",fontSize:m||"14.7412px"},value:V,onChange:_=>{W(_.target.value)}})]}),$("img",{src:`/banking_dashboard/assets/dashboard/${N}.svg`,alt:""})]})]})},Qm=se.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,7 +182,7 @@ Error generating stack: `+m.message+`
     line-height: 11px;
     color: #798BA3;
 
-`,ev=({title:i,btnImage:r})=>de(Qm,{children:[$(Km,{children:$("img",{src:`/assets/dashboard/${r}.svg`,alt:""})}),$(Jm,{children:i})]}),tv=se.div`
+`,ev=({title:i,btnImage:r})=>de(Qm,{children:[$(Km,{children:$("img",{src:`/banking_dashboard/assets/dashboard/${r}.svg`,alt:""})}),$(Jm,{children:i})]}),tv=se.div`
     // width: 205.48px;
     height: 253.74px;
     padding: 15px 12px 27px 12px;
@@ -220,7 +220,7 @@ Error generating stack: `+m.message+`
     display: flex;
     justify-content: space-between;
 
-`,rv=()=>de(tv,{children:[$("h2",{className:"header",children:"Quick Transfer"}),de(iv,{children:[de(ni,{gap:5,children:[$("img",{src:"/assets/dashboard/visa-icon.svg",alt:""}),$("p",{className:"debit-p",children:"Debit"})]}),de(ni,{gap:6,children:[de("p",{style:{fontFamily:"Gilroy-SemiBold",fontSize:"11.7px",lineHeight:"14px",color:"#131635"},children:[$("span",{style:{color:"#A4B4CB"},children:"$"})," 10.680"]}),$("img",{src:"/assets/dashboard/arrow-down.svg",alt:""})]})]}),$(bf,{padding:"10px",borderRadius:"7.93757px",image:"icon3",title:"Enter amount"}),$(nv,{children:["Send","Recieve","Invoicing","More"].map(i=>$(ev,{title:i,btnImage:i.toLowerCase()},i))})]}),av=se.div`
+`,rv=()=>de(tv,{children:[$("h2",{className:"header",children:"Quick Transfer"}),de(iv,{children:[de(ni,{gap:5,children:[$("img",{src:"/banking_dashboard/assets/dashboard/visa-icon.svg",alt:""}),$("p",{className:"debit-p",children:"Debit"})]}),de(ni,{gap:6,children:[de("p",{style:{fontFamily:"Gilroy-SemiBold",fontSize:"11.7px",lineHeight:"14px",color:"#131635"},children:[$("span",{style:{color:"#A4B4CB"},children:"$"})," 10.680"]}),$("img",{src:"/banking_dashboard/assets/dashboard/arrow-down.svg",alt:""})]})]}),$(bf,{padding:"10px",borderRadius:"7.93757px",image:"icon3",title:"Enter amount"}),$(nv,{children:["Send","Recieve","Invoicing","More"].map(i=>$(ev,{title:i,btnImage:i.toLowerCase()},i))})]}),av=se.div`
     padding: 25px 0;
 
     .amount-input {
@@ -284,7 +284,7 @@ Error generating stack: `+m.message+`
     color: white;
     cursor: pointer;
 
-`,dv=()=>de(av,{children:[$(ov,{children:"Send Money"}),de(sv,{children:[de(lv,{children:[de(ni,{gap:11,children:[$("img",{src:"/assets/dashboard/debit.svg",alt:""}),$(cv,{children:"Debit"})]}),de(ni,{gap:20,children:[de("p",{style:{fontFamily:"Gilroy-SemiBold",fontSize:"11.7px",lineHeight:"14px",color:"#131635"},children:[$("span",{style:{color:"#A4B4CB"},children:"$"})," 10.680"]}),$("img",{src:"/assets/dashboard/arrow-down.svg",alt:""})]})]}),$(bf,{padding:"6px 19px 15px 15px",borderRadius:"10.2375px",image:"countries",icon:"icon1",title:"Enter the amount",bodyFontSize:"21.2062px",bodyLineHeight:"25px",bodyPColor:"#A4B4CB",bodyInputColor:"#131635",bodyGap:"5px"}),de(hv,{children:[de("div",{className:"reciever",children:[$("img",{src:"/assets/dashboard/icon2.svg",alt:""}),$("p",{children:"Frank Abiodun"})]}),$("img",{src:"/assets/dashboard/plus.svg",alt:""})]}),$(uv,{children:"Send Money"})]})]}),fv=se.div`
+`,dv=()=>de(av,{children:[$(ov,{children:"Send Money"}),de(sv,{children:[de(lv,{children:[de(ni,{gap:11,children:[$("img",{src:"/banking_dashboard/assets/dashboard/debit.svg",alt:""}),$(cv,{children:"Debit"})]}),de(ni,{gap:20,children:[de("p",{style:{fontFamily:"Gilroy-SemiBold",fontSize:"11.7px",lineHeight:"14px",color:"#131635"},children:[$("span",{style:{color:"#A4B4CB"},children:"$"})," 10.680"]}),$("img",{src:"/banking_dashboard/assets/dashboard/arrow-down.svg",alt:""})]})]}),$(bf,{padding:"6px 19px 15px 15px",borderRadius:"10.2375px",image:"countries",icon:"icon1",title:"Enter the amount",bodyFontSize:"21.2062px",bodyLineHeight:"25px",bodyPColor:"#A4B4CB",bodyInputColor:"#131635",bodyGap:"5px"}),de(hv,{children:[de("div",{className:"reciever",children:[$("img",{src:"/banking_dashboard/assets/dashboard/icon2.svg",alt:""}),$("p",{children:"Frank Abiodun"})]}),$("img",{src:"/banking_dashboard/assets/dashboard/plus.svg",alt:""})]}),$(uv,{children:"Send Money"})]})]}),fv=se.div`
     width: 205.48px;
 
 
@@ -1026,7 +1026,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 
 `,Rv=()=>{const[i,r]=Se.useState({options:{chart:{id:"basic-bar",toolbar:{show:!1}},xaxis:{categories:["Dec 2","Dec 3","Dec 4","Dec 5","Dec 6","Dec 7","Dec 8","Dec 9"],labels:{style:{fontFamily:"Gilroy-SemiBold",fontSize:"9px",lineHeight:"9px",color:"#A5B4CB"}},axisTicks:{show:!1}},yaxis:{min:0,range:1e4,tickAmount:5,labels:{formatter:function(o){return o>=1e3?`${Math.round(o/1e3*10)/10}k`:o.toString()},style:{fontFamily:"Gilroy-SemiBold",fontSize:"10px",lineHeight:"9px",color:"#A5B4CB"}}},dataLabels:{enabled:!1},stroke:{show:!0,width:1.5,dashArray:0},tooltip:{custom:function({series:o,seriesIndex:h,dataPointIndex:p,w:m}){return`<div class="tool-tip-box">
                             <div class="tool-tip-bar">
-                                <img src="/assets/dashboard/download.svg" alt="" />
+                                <img src="/banking_dashboard/assets/dashboard/download.svg" alt="" />
                                 <span>income</span>
                             </div>
                             <span class="tool-tip-value">$ ${o[h][p]}</span> 
@@ -1070,7 +1070,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         color: #141736;
     }
 
-`,Dv=()=>{const[i,r]=Se.useState("");return de(Nv,{children:[de(Ov,{children:[de(Jt,{children:[$("h2",{children:"Money Flow"}),de(ni,{gap:19,children:[$("img",{src:"/assets/dashboard/wiggly-gray.svg",alt:""}),$("img",{src:"/assets/dashboard/sort.svg",alt:""})]})]}),de(Jt,{children:[de(ni,{gap:19,children:[de(ni,{gap:8,children:[$("img",{src:"/assets/dashboard/wiggly-btn.svg",alt:""}),$("h2",{className:"savings",children:"Savings"})]}),de(ni,{gap:8,children:[$("img",{src:"/assets/dashboard/wiggly-blue.svg",alt:""}),$("h2",{className:"analysis",children:"+23,9%"})]})]}),$(xv,{options:["Week","Month"],value:i,name:"select",handleChange:o=>{r(o.target.value)}})]})]}),$(Rv,{})]})},Xv=se.div`
+`,Dv=()=>{const[i,r]=Se.useState("");return de(Nv,{children:[de(Ov,{children:[de(Jt,{children:[$("h2",{children:"Money Flow"}),de(ni,{gap:19,children:[$("img",{src:"/banking_dashboard/assets/dashboard/wiggly-gray.svg",alt:""}),$("img",{src:"/banking_dashboard/assets/dashboard/sort.svg",alt:""})]})]}),de(Jt,{children:[de(ni,{gap:19,children:[de(ni,{gap:8,children:[$("img",{src:"/banking_dashboard/assets/dashboard/wiggly-btn.svg",alt:""}),$("h2",{className:"savings",children:"Savings"})]}),de(ni,{gap:8,children:[$("img",{src:"/banking_dashboard/assets/dashboard/wiggly-blue.svg",alt:""}),$("h2",{className:"analysis",children:"+23,9%"})]})]}),$(xv,{options:["Week","Month"],value:i,name:"select",handleChange:o=>{r(o.target.value)}})]})]}),$(Rv,{})]})},Xv=se.div`
     // width: 206.21px;
     // height: 130.16px;
     // background-color: #FFFFFF;
@@ -1165,7 +1165,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         color: #798BA3;
 
     }
-`,Lf=({icon:i,value:r,title:o})=>de(Wv,{children:[$("img",{src:`/assets/dashboard/${i}.svg`,alt:""}),de(_v,{children:[$("p",{className:"stats-value",children:r}),$("p",{className:"stats-title",children:o})]})]}),Vv=se.div`
+`,Lf=({icon:i,value:r,title:o})=>de(Wv,{children:[$("img",{src:`/banking_dashboard/assets/dashboard/${i}.svg`,alt:""}),de(_v,{children:[$("p",{className:"stats-value",children:r}),$("p",{className:"stats-title",children:o})]})]}),Vv=se.div`
     width: 206.21px;
     height: 130.16px;
     background-color: #FFFFFF;
@@ -1213,7 +1213,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 
 
 
-`,Zv=()=>de(Vv,{children:[$(jv,{}),de(Gv,{children:[de(Uv,{children:["Group ",$("span",{children:"Party"})]}),de(Jt,{children:[$(Bv,{images:["/assets/dashboard/dakota.svg","/assets/dashboard/anatalia.svg","/assets/dashboard/dakota.svg","/assets/dashboard/dakota.svg","/assets/dashboard/dakota.svg"]}),$("img",{src:"/assets/dashboard/pending-message.svg",alt:""})]}),de($v,{children:[$(Lf,{icon:"dakota",title:"$ 450.00",value:"Dakota Milk"}),$("img",{src:"/assets/dashboard/arrow-right.svg",alt:""})]})]})]}),qv=se.div`
+`,Zv=()=>de(Vv,{children:[$(jv,{}),de(Gv,{children:[de(Uv,{children:["Group ",$("span",{children:"Party"})]}),de(Jt,{children:[$(Bv,{images:["/banking_dashboard/assets/dashboard/dakota.svg","/banking_dashboard/assets/dashboard/anatalia.svg","/banking_dashboard/assets/dashboard/dakota.svg","/banking_dashboard/assets/dashboard/dakota.svg","/banking_dashboard/assets/dashboard/dakota.svg"]}),$("img",{src:"/banking_dashboard/assets/dashboard/pending-message.svg",alt:""})]}),de($v,{children:[$(Lf,{icon:"dakota",title:"$ 450.00",value:"Dakota Milk"}),$("img",{src:"/banking_dashboard/assets/dashboard/arrow-right.svg",alt:""})]})]})]}),qv=se.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1274,7 +1274,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         margin-bottom: 20px;
     }
 
-`,iy=({recipients:i})=>{const[r,o]=Se.useState(0),[h,p]=Se.useState(0),m=i.slice(h,5+h),S=()=>{r<i.length-1?o(r+1):o(0),i.length>5&&(r===i.length-1?p(0):r>=4&&p(h+1))};return de(Jv,{children:[$(ey,{children:m.map(A=>$(Kv,{...A,isCurrent:A.key===r}))}),$("img",{onClick:S,className:"cursor",src:"/assets/dashboard/arrow-right.svg",alt:""})]})},ny=({recipients:i})=>de(ty,{children:[$("h2",{children:`${i.length} recipients`}),$(iy,{recipients:i})]}),ry=[{icon:"customers",title:"Customers",value:"220k"},{icon:"remmitance",title:"Remmitance",value:"250k"},{icon:"donation",title:"Donation",value:"620k"},{icon:"watchtime",title:"Watchtime",value:"500k"}],$i=i=>`/assets/dashboard/${i}.svg`,ay=[{image:$i("bitcoin"),description:"Bitcoin Transactions",date:"Jan 16, 2020",cardNumber:"4563739474947",type:"transfer",status:"Success",amount:"340.00"},{image:$i("anatalia"),description:"Sent to anitonia",date:"Jan 16, 2020",cardNumber:"84785947368348",type:"transfer",status:"Pending",amount:"200.00"},{image:$i("paypal"),description:"Withdraw Paypal",date:"Jan 16, 2020",cardNumber:"84748483948948",type:"deposit",status:"Success",amount:"210.00"}],sy=[{key:0,image:$i("anatalia"),isInitial:!1},{key:1,image:$i("anatalia"),isInitial:!1},{key:2,image:"HC",isInitial:!0},{key:3,image:$i("anatalia"),isInitial:!1},{key:4,image:$i("anatalia"),isInitial:!1},{key:5,image:"PK",isInitial:!0}],oy=se.div`
+`,iy=({recipients:i})=>{const[r,o]=Se.useState(0),[h,p]=Se.useState(0),m=i.slice(h,5+h),S=()=>{r<i.length-1?o(r+1):o(0),i.length>5&&(r===i.length-1?p(0):r>=4&&p(h+1))};return de(Jv,{children:[$(ey,{children:m.map(A=>$(Kv,{...A,isCurrent:A.key===r}))}),$("img",{onClick:S,className:"cursor",src:"/banking_dashboard/assets/dashboard/arrow-right.svg",alt:""})]})},ny=({recipients:i})=>de(ty,{children:[$("h2",{children:`${i.length} recipients`}),$(iy,{recipients:i})]}),ry=[{icon:"customers",title:"Customers",value:"220k"},{icon:"remmitance",title:"Remmitance",value:"250k"},{icon:"donation",title:"Donation",value:"620k"},{icon:"watchtime",title:"Watchtime",value:"500k"}],$i=i=>`/banking_dashboard/assets/dashboard/${i}.svg`,ay=[{image:$i("bitcoin"),description:"Bitcoin Transactions",date:"Jan 16, 2020",cardNumber:"4563739474947",type:"transfer",status:"Success",amount:"340.00"},{image:$i("anatalia"),description:"Sent to anitonia",date:"Jan 16, 2020",cardNumber:"84785947368348",type:"transfer",status:"Pending",amount:"200.00"},{image:$i("paypal"),description:"Withdraw Paypal",date:"Jan 16, 2020",cardNumber:"84748483948948",type:"deposit",status:"Success",amount:"210.00"}],sy=[{key:0,image:$i("anatalia"),isInitial:!1},{key:1,image:$i("anatalia"),isInitial:!1},{key:2,image:"HC",isInitial:!0},{key:3,image:$i("anatalia"),isInitial:!1},{key:4,image:$i("anatalia"),isInitial:!1},{key:5,image:"PK",isInitial:!0}],oy=se.div`
     
 
 
@@ -1309,7 +1309,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         color: #131635;
     }
 
-`,cy=()=>de(oy,{children:[de(ly,{children:[$("h2",{children:"Recent Contacts"}),de(ni,{gap:20,children:[$("img",{src:"/assets/dashboard/pencil.svg",alt:""}),$("img",{src:"/assets/dashboard/search.svg",alt:""})]})]}),$(ny,{recipients:sy}),$(Zv,{})]}),hy=se.div`
+`,cy=()=>de(oy,{children:[de(ly,{children:[$("h2",{children:"Recent Contacts"}),de(ni,{gap:20,children:[$("img",{src:"/banking_dashboard/assets/dashboard/pencil.svg",alt:""}),$("img",{src:"/banking_dashboard/assets/dashboard/search.svg",alt:""})]})]}),$(ny,{recipients:sy}),$(Zv,{})]}),hy=se.div`
     width: 57.04px;
     height: 21.94px;
     border-radius: 3.65625px;
@@ -1438,7 +1438,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         height: 24.13px;
     }
 
-`,Ry=i=>Ef[i-1].menuItem,Ny=()=>{const{currentPage:i}=yf();return de(zy,{children:[de(Iy,{children:[$(My,{children:Ry(i)}),de(Fy,{children:[$("img",{src:"/assets/dashboard/gray-search.svg",alt:""}),$("img",{src:"/assets/dashboard/alert.svg",alt:""}),$("img",{src:"/assets/dashboard/icon2.svg",alt:"",className:"profile"})]})]}),$("div",{children:i===1?$(Ly,{}):$(Ey,{})})]})},Oy=se.div`
+`,Ry=i=>Ef[i-1].menuItem,Ny=()=>{const{currentPage:i}=yf();return de(zy,{children:[de(Iy,{children:[$(My,{children:Ry(i)}),de(Fy,{children:[$("img",{src:"/banking_dashboard/assets/dashboard/gray-search.svg",alt:""}),$("img",{src:"/banking_dashboard/assets/dashboard/alert.svg",alt:""}),$("img",{src:"/banking_dashboard/assets/dashboard/icon2.svg",alt:"",className:"profile"})]})]}),$("div",{children:i===1?$(Ly,{}):$(Ey,{})})]})},Oy=se.div`
     display: flex;
     gap: 11px;
     margin-left: 21px;
@@ -1453,7 +1453,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     line-height: 18px;
     color: #2F2F32;
 
-`,Xy=()=>de(Oy,{children:[$("img",{src:"/assets/logo.svg",alt:""}),$(Dy,{children:"OpenPay"})]}),Yy=se.div`
+`,Xy=()=>de(Oy,{children:[$("img",{src:"/banking_dashboard/assets/logo.svg",alt:""}),$(Dy,{children:"OpenPay"})]}),Yy=se.div`
     display: flex;
     width: 100%;
     gap: 16px;
@@ -1507,7 +1507,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     justify-content: center;
     margin-right: 5px;
 
-`,jh=({menuItem:i,additionalInfo:r,isCurrentMenuItem:o,icon:h,handleClick:p})=>{const m=`${h}${o?"-fill":""}`;return de(Yy,{children:[$(Hy,{style:{backgroundColor:o?"#0177FD":"transparent"}}),de(By,{onClick:p,style:{backgroundColor:o?"#E5F1FF":"transparent"},children:[de(Wy,{children:[$("img",{src:`/assets/side-bar/${m}.svg`,alt:i}),$("p",{style:{fontWeight:o?500:400,color:o?"#0177FD":"#131635"},children:i})]}),$(_y,{style:{display:r?"flex":"none"},children:r})]})]})},Vy=se.div`
+`,jh=({menuItem:i,additionalInfo:r,isCurrentMenuItem:o,icon:h,handleClick:p})=>{const m=`${h}${o?"-fill":""}`;return de(Yy,{children:[$(Hy,{style:{backgroundColor:o?"#0177FD":"transparent"}}),de(By,{onClick:p,style:{backgroundColor:o?"#E5F1FF":"transparent"},children:[de(Wy,{children:[$("img",{src:`/banking_dashboard/assets/side-bar/${m}.svg`,alt:i}),$("p",{style:{fontWeight:o?500:400,color:o?"#0177FD":"#131635"},children:i})]}),$(_y,{style:{display:r?"flex":"none"},children:r})]})]})},Vy=se.div`
 
     width: 175.5px;
     height: 817.54px;
